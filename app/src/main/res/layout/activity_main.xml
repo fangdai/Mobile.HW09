@@ -1,0 +1,82 @@
+<?xml version ="1.0" encoding ="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/newsapp"
+        android:layout_width="match_parent" android:layout_height="50dp"
+        android:text="@string/newsapp" android:textAlignment="center" android:textSize="16pt">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <Button
+            android:id="@+id/dantri_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/dantri_btn"
+            android:layout_marginRight="10dp">
+        </Button>
+        <Button
+            android:id="@+id/thanhnien_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/thanhnien_btn"
+            android:layout_marginRight="10dp">
+        </Button>
+        <Button
+            android:id="@+id/vnexpress_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/vnexpress_btn"
+            android:layout_marginRight="10dp">
+        </Button>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500px"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="@string/channel">
+            </TextView>
+            <TextView
+                android:id="@+id/channel"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="NOTHING">
+            </TextView>
+            <ListView
+                android:id="@+id/channel_list"
+                android:layout_width="match_parent"
+                android:layout_height="500px">
+
+            </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="@string/posts">
+        </TextView>
+        <TextView
+            android:id="@+id/posts"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="NOTHING">
+        </TextView>
+        <ListView
+            android:id="@+id/post_list"
+            android:layout_width="match_parent"
+            android:layout_height="500px">
+
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

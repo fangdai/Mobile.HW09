@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HW09</string>
+    <string name="newsapp">News App</string>
+    <string name="dantri_btn">Dân Trí</string>
+    <string name="thanhnien_btn">Thanh Niên</string>
+    <string name="vnexpress_btn">VNEXPRESS</string>
+    <string name="channel">Channels in </string>
+    <string name="posts">Posts in </string>
+</resources>
